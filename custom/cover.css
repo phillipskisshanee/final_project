@@ -161,3 +161,48 @@ body {
     width: 700px;
   }
 }
+
+/* Attempt at spliting the screen. merp derp */
+
+html, body, section, div {
+  height: 100vh;
+}
+
+body {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-shadow: 0 2px 2px #b6701e;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: -ms-grid;
+  -ms-grid-columns: 50% auto;
+}
+
+.left-half {
+  background: #ff9e2c;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+
+.right-half {
+  background: #b6701e;
+  -ms-grid-column: 2;
+  -ms-grid-row: 1;
+}
