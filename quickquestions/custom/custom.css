@@ -9,6 +9,7 @@ body {
 article {
   padding-top: 50px;
   background-color: #ccddff;
+  background: rgba(204, 220, 254, 0.5);
 }
 
 body {
