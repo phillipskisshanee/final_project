@@ -6,12 +6,16 @@ body {
   text-align: center;
 }
 
-.container {
-  background-color: #6a95fb;
+article {
+  background-color: #ccddff;
 }
 
 .site-footer {
   position: fixed;
   bottom: 0;
   width: 100%
+}
+
+aside {
+  float: right;
 }
