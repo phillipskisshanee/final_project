@@ -4,14 +4,17 @@ body {
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+  background-color: #ccddff;
+  background: rgba(204, 220, 254, 0.5);
+
 }
 
-article {
+/* article {
   padding-top: 100px;
   background-color: #ccddff;
   background: rgba(204, 220, 254, 0.5);
   height: 600px;
-}
+} */
 
 body {
   background-image: url("../../images/large/background.jpg");
