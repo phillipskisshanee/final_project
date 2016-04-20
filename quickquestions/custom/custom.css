@@ -10,6 +10,12 @@ article {
   background-color: #ccddff;
 }
 
+body {
+  background-image: url("../../images/large/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .site-footer {
   position: fixed;
   bottom: 0;
