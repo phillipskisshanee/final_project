@@ -1,4 +1,9 @@
 #content {
     background-color: #ccddff;
-  background: rgba(204, 220, 254, 0.5);
+    background: rgba(204, 220, 254, 0.5);
+}
+
+.starter-template {
+    background-color: #ccddff;
+    background: rgba(204, 220, 254, 0.5);
 }
